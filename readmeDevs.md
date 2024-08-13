@@ -5,6 +5,14 @@
     git remote add origin https://github.com/BredexBR/professionalLogin.git
     git pull origin main
 
+## Commit
+- Para fazer um commit
+    ```bash
+    git status
+    git add .
+    git commit -m "Mensagem commit"
+    git push -u origin main
+
 # Iniciando as configurações(Linux):
 - Para criar a venv:
     ```bash
@@ -13,6 +21,15 @@
 - Para ativar a venv:
     ```bash
     source venv/bin/activate
+
+# Iniciando as configurações(Windows):
+- Para criar a venv:
+    ```bash
+    python -m venv venv
+
+- Para ativar a venv(Não funciona no Git Bash):
+    ```bash
+    .\venv\Scripts\activate
 
 # Criando Usuário Admin:
 - Para criar um usuario admin basta rodar o codigo abaixo e seguir o passo a passo:
