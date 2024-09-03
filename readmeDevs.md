@@ -2,7 +2,7 @@
 - Para fazer pull request pela primeira vez siga esses passos:
     ```bash
     git init
-    git remote add origin https://github.com/BredexBR/professionalLogin.git
+    git remote add origin https://github.com/Hyena-Crew/professionalLogin.git
     git pull origin main
 
 ## Comandos git para commit
@@ -10,7 +10,7 @@
     ```bash
     git status
     git add .
-    git commit -m "Mensagem commit"
+    git commit -m "Mensagem de commit detalhando o máximo possível"
     git push -u origin main
     ```
 
@@ -31,7 +31,7 @@
     python -m venv venv
     ```
 
-- Para ativar a venv(Não funciona no Git Bash):
+- Para ativar a venv (não funciona no Git Bash):
     ```bash
     .\venv\Scripts\activate
     ```
@@ -52,13 +52,13 @@
 ## Criação do Dockerfile 
 O Dockerfile permite a construção de uma imagem própria da aplicação, sem a necessidade e o dever de executá-la localmente. Para criá-lo, basta executar o seguinte comando:
 ```
-docker image build -t nome-imagem .
+docker image build -t professional-login .
 ```
 Obs: É muito importante se atentar e não esquecer do ponto final 
 
 Após isso, execute:
 ```
-docker run -p 5000:5000 -d nome-imagem
+docker run -p 5000:5000 -d professional-login
 ```
 
 ### Criação do Docker Compose 

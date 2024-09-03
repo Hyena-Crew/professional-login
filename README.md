@@ -1,4 +1,4 @@
-# Professional Login • Sobre o projeto
+# Sobre o projeto
 Este projeto é um sistema de cadastro e login de usuários incluindo redefinição de senha e autenticação em duas etapas via SMS, sendo esse um modelo para projetos futuros.
 
 ## Integrantes
@@ -18,28 +18,22 @@ Este projeto é um sistema de cadastro e login de usuários incluindo redefiniç
 ## Ferramentas e tecnologias
 • **Back-end**: Python, framework Django;
 
->Confirmar uso das tecnologias
-• **Front-end**: HTML5, CSS3 (Bootstrap - sugestão), JavaScript (JQuery, React ou Vue - sugestão);
+• **Front-end**: HTML5, CSS3 (Bootstrap), JavaScript (React.js);
 
 • **Arquitetura do projeto**: Microsserviços;
 
 • **Containers e orquestração**: Docker e Compose;
 
-• **Padrão do projeto** (se houver): Strategy, Hexagonal;
+• **Padrão do projeto**: MVT (Model View Template) - Nativo do framework Django
 
->Confirmar uso da plataforma
-• **Hospedagem**: PythonAnywhere (sugestão);
+• **Hospedagem**: AWS;
 
-• **Banco de dados**: PostgreSQL ou MySQL;
+• **Banco de dados**: MySQL;
 
->Confirmar uso da tecnologia
-• **Autenticação**: JWT (JSON Web Tokens);
+• **Autenticação**: Uso de biblioteca nativa do framework Django;
 
 • **Código por e-mail**: Twilio Sendgrid;
 
 • **Envio de SMS**: Twilio;
-
->Confirmar uso da tecnologia
-• **API**: Kong
 
 

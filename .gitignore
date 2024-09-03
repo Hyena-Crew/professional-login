@@ -76,6 +76,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+env-applogin/
 
 # Spyder project settings
 .spyderproject
@@ -193,6 +194,7 @@ ENV/
 env/
 env.bak/
 venv.bak/
+env-applogin/
 
 # Spyder project settings
 .spyderproject
