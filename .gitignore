@@ -272,5 +272,5 @@ coverage.xml
 cover/
 
 # Project
-Var_Ignore.py
-db.sqlite3
+var_ignore.py
+database.sql

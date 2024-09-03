@@ -9,11 +9,13 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
+# NAO ESQUECER DE DESCOMENTAR AS LINHAS 15 E 27
 
 from pathlib import Path
-from Var_Ignore import ChaveDjango
+#from Var_Ignore import ChaveDjango
 import os
 from django.contrib.messages import constants
+from var_ignore import ChaveDjango
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent # Diretório onde esta meu projeto atual
@@ -23,13 +25,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent # Diretório onde esta meu pro
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ChaveDjango
+#SECRET_KEY = ChaveDjango
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Definindo uma chave secreta
+SECRET_KEY = ChaveDjango
 
 # Application definition
 

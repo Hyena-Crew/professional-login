@@ -9,3 +9,14 @@ from django.contrib.messages import constants
 def cadastro(request):
     if request.method == "GET":
         return render(request, 'cadastro.html')
+    
+# def login(request):
+#     if request.method == "GET":
+#         return render(request, 'login.html')
+#     # elif request.method == "POST":
+#     #     username = request.POST.get('username')
+#     #     password = request.POST.get('password')
+    
+# def logout(request):
+#     auth.logout(request)
+#     return redirect(request, '/usuarios/login/')

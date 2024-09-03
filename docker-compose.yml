@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  web:
+    restart: always
+    build: .
+    depends_on: -db
+    image: app-django-login
+    command: python manage.py runserver
+    ports:
+      - "8000:8000"
+
