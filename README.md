@@ -6,6 +6,12 @@ Este projeto é um sistema de cadastro e login de usuários incluindo redefiniç
 - David Castanheira de Souza;
 - Rafael Nascimento de Souza
 
+## Indice
+- [Funcionalidades](#funcionalidades)
+- [Ferramentas e tecnologias](#ferramentas-e-tecnologias)
+- [Gerenciamento](#gerenciamento)
+- [Versionamento](#versionamento)
+
 ## Funcionalidades
 • **Cadastro de usuário**: Permite que novos usuários se registrem no sistema;
 
@@ -36,4 +42,18 @@ Este projeto é um sistema de cadastro e login de usuários incluindo redefiniç
 
 • **Envio de SMS**: Twilio;
 
+## Gerenciamento
 
+O projeto será gerenciado com três branches principais:
+
+- **Main**: Branch onde o projeto estará 100% funcional e pronto para produção.
+- **Homologação**: Branch destinada à integração das lógicas desenvolvidas, para testes de validação antes de irem para a branch Main.
+- **Testes**: Branch utilizada para o desenvolvimento e teste de novas lógicas e funcionalidades.
+
+## Versionamento
+
+O controle de versão será realizado utilizando o padrão `1.0.0`, onde cada número representa:
+
+- **1**: Grandes alterações que modificam drasticamente a aplicação.
+- **0**: Novas funcionalidades adicionadas. Exemplo: inclusão de uma nova tela com novas funções.
+- **0**: Pequenas melhorias ou correções. Exemplo: adição de uma nova função a uma funcionalidade já existente, ou modificações menores em HTML, CSS, Python, etc.

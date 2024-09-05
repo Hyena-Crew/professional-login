@@ -15,7 +15,7 @@ from pathlib import Path
 #from Var_Ignore import ChaveDjango
 import os
 from django.contrib.messages import constants
-from var_ignore import ChaveDjango
+from Var_Ignore import ChaveDjango
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent # Diretório onde esta meu projeto atual
@@ -143,3 +143,5 @@ MESSAGE_TAGS = { # Mensagems de aviso para o django enviar ao html
     constants.INFO: 'alert-info',
     constants.WARNING: 'alert-warning',
 }
+
+VERSAO_DO_PROJETO = "1.0.1"
