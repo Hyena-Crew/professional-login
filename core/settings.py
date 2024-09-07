@@ -144,4 +144,4 @@ MESSAGE_TAGS = { # Mensagems de aviso para o django enviar ao html
     constants.WARNING: 'alert-warning',
 }
 
-VERSAO_DO_PROJETO = "1.0.2"
+VERSAO_DO_PROJETO = "1.0.3"
