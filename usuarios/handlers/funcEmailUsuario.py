@@ -1,7 +1,7 @@
 import smtplib
 import random
 from core.settings import DEBUG
-from Var_Ignore import emailHyenaCrew, senhaAPPEmailHyenaCrew
+from var_ignore import emailHyenaCrew, senhaAPPEmailHyenaCrew
 from email.message import EmailMessage
 
 def gerarNumeroRandomico():

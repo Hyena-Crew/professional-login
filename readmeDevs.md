@@ -48,6 +48,7 @@
     pip install django
     pip install pillow
     pip install requests
+    pip install twilio
     ```
 
 ## Criação do Dockerfile 

@@ -276,5 +276,6 @@ cover/
 
 # Project
 var_ignore.py
+Var_Ignore.py
 database.sql
 testesBreno.py
